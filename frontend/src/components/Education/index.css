@@ -1,0 +1,88 @@
+/* Base styles for the form */
+.container {
+    max-width: 800px;
+    margin: 0px 10px;
+    padding-left: 10px;
+  }
+  
+  h2 {
+    font-size: 1.75rem; /* Adjusted font size */
+    margin-bottom: 20px;
+  }
+  
+  .section {
+    margin-bottom: 30px;
+  }
+  
+  h4 {
+    font-size: 1.25rem; /* Adjusted font size */
+    margin-bottom: 15px;
+  }
+  
+  /* Form group styling */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 0.875rem; /* Smaller label font size */
+    margin-bottom: 5px;
+  }
+  
+  .form-group input[type="text"], .form-group select {
+    width: 100%;
+    padding: 8px;
+    font-size: 0.875rem; /* Smaller input font size */
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 10px 20px; /* Adjusted padding */
+    font-size: 0.875rem; /* Smaller button font size */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+  
+    h4 {
+      font-size: 1rem;
+    }
+  
+    .form-group label {
+      font-size: 0.75rem;
+    }
+  
+    .form-group input[type="text"], .form-group select {
+      font-size: 0.75rem;
+    }
+  
+    .btn-primary {
+      font-size: 0.75rem;
+    }
+  }
+  
+  .required{
+    color: red;
+  }
+  
+  .select-bootstrap{
+    cursor: pointer;
+  }
+  
+  .inter-diploma-label{
+    font-weight: 650;
+  }
